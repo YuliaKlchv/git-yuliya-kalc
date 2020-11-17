@@ -1,0 +1,59 @@
+nav {
+  background-color: black;
+  height: 120px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+   }
+
+nav ul {
+  padding: 10px;
+  float:right;
+  margin-right:80px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 10px;
+  position: relative;
+}
+nav ul li a{
+  color: white;
+  font-size: 18px;
+  text-align: right ;
+  padding: 30px 100px;
+  text-transform: uppercase;
+  font-weight:bold;
+}
+
+a.active,a:hover{
+  background: lightslategray;
+ 
+  transition:  .5s;
+}
+ul {
+  position: absolute;
+  top:  0;
+  width: 100%;
+}/* Container holding the image and the text */
+.container{
+  border: 20px solid;
+}
+.text-block {
+  text-align: center;
+  padding: 15px;
+  margin: 0 10px;
+ display: inline-block;
+ font-size: 18px;
+ font-weight: bold;
+ font-family: sans-serif;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    background-color: black;
+
+}
+
